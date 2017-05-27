@@ -1,0 +1,20 @@
+
+$primary-light-color: #F36259 ;
+$primary-dark-color: #c02f26;
+
+$menu-alternative-background-color: #FFF;
+$menu-foreground-color: #000;
+
+$link-color: #971a28 !default;
+$toc-link-color: #000000 !default;
+
+$very-dark-primary-color: #c02f26;
+
+#about_journal a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@import "../../../../compile/scss/app.scss";
+
+
