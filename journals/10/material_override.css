@@ -41,3 +41,7 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 .carousel-text-wrapper {
     opacity: 0.9 !important;
 }
+
+.button-collapse {
+    color: #616161;
+}
