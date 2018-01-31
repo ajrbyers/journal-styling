@@ -51,7 +51,7 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 }
 
 .card .card-image img {
-    max-height: 260px; 
+    height: 260px; 
     object-fit: cover;
 }
 
