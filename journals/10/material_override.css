@@ -42,10 +42,21 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     opacity: 0.9 !important;
 }
 
+.carousel-text-wrapper a {
+    color: white;
+}
+
 .button-collapse {
     color: #616161;
 }
 
 .card .card-image img {
-    max-height: 300px; object-fit: cover;
+    max-height: 260px; 
+    object-fit: cover;
 }
+
+.card .card-content p {
+    padding-bottom: 15px !important;
+}
+
+
