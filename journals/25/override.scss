@@ -8,3 +8,11 @@ $very-dark-primary-color: #fff;
 .header-image-bar {
   padding: rem-calc(2px) !important;
 }
+
+.dark-primary-bg {
+  background-color: #000000;
+}
+
+.dark-primary-bg h2, p {
+  color: #0a0a0a;
+}
