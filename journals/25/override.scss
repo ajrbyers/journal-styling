@@ -1,0 +1,10 @@
+
+$very-dark-primary-color: #fff;
+
+@import "../../../../themes/OLH/assets/scss/app.scss";
+
+.indentQuote { @extend blockquote; }
+
+.header-image-bar {
+  padding: rem-calc(20px) !important;
+}
