@@ -20,3 +20,14 @@ $very-dark-primary-color: #fff;
 .dark-primary-bg p {
   color: #0a0a0a;
 }
+
+footer {
+  svg {
+    height: 30px;
+    width: 100px;
+
+    path {
+      fill: $black;
+    }
+  }
+}
