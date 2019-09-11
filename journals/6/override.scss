@@ -1,0 +1,11 @@
+.box.issue img {
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 300px !important;
+}
+
+.info-bar {
+  height: 50%;
+}
+
+@import "../../../../themes/OLH/assets/scss/app.scss";
