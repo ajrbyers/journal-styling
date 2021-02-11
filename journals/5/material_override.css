@@ -1,0 +1,120 @@
+:root {
+	--nav-color: #fff;
+        --nav-bg-color: #a30433;
+        --nav-color-hover: rgba(0,0,0,0.1);
+	--btn-color: #8298c8;
+	--btn-color-hover: #003456;
+	--link-color: #8298c8;
+	--link-color-hover: #8298c8;
+	--secondary-color: #616161;
+	--title-color: var(--btn-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-color-hover);
+}
+
+.header-overrides {
+	background-color: var(--nav-bg-color);
+}
+
+nav ul a {
+	
+	color: var(--nav-color);
+    	font-weight: bolder;
+}
+nav ul a:hover {
+	color: var(--nav-color);
+    	font-weight: bolder;
+}
+
+
+.dropdown-content li > a, .dropdown-content li > span {
+	color: var(--nav-color);
+	background-color: var(--nav-bg-color);
+}
+
+
+.collection .collection-item.active {
+    background-color: var(--title-color);
+}
+
+.collection a.collection-item {
+    color: var(--title-color);
+}
+
+.btn {
+    background-color: var(--btn-color);
+}
+
+.btn:hover {
+    background-color: var(--btn-color-hover);
+}
+
+.article-title {
+	color: var(--title-color);
+ 	font-weight: 400;
+}
+#about_journal .card-title {
+	color: var(--secondary-color);
+	font-weight: bold;
+}
+
+[type="checkbox"]:checked + label::before {
+	border-right: 2px solid var(--secondary-color);
+	border-bottom: 2px solid var(--secondary-color);
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	color: var(--secondary-color);
+
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+	color: var(--secondary-color);
+	filter: brightness(65%);
+
+}
+
+.pagination li.active {
+    background-color: var(--secondary-color);
+}
+
+
+.carousel-text-wrapper {
+    opacity: 0.9 !important;
+}
+
+.carousel-text-wrapper a {
+    color: white;
+}
+
+.button-collapse {
+    color: #616161;
+}
+
+.fig-inline-img img {
+    width: 100%;
+}
+
+
+.fig-caption {
+    background-color: #E5E5E5;
+    padding: 15px;
+}
+
+
+.table-wrap {
+    border: solid #E5E5E5 1px;
+    margin-bottom: 15px;
+}
+
+.table-caption {
+    background-color: #E5E5E5;
+    padding: 15px;
+    margin-bottom: 15px;
+}
